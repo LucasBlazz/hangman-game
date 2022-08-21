@@ -5,7 +5,7 @@ Reglas :
 Ayudas y pistas:
     - Investiga la funcion 'enumerate'
     - El metodo 'get' de los diccionarios puede servirte
-    - La sentencia 'os.system(clear)' sirve para limpiar pantalla en consola
+    - La sentencia 'os.system('clear')' sirve para limpiar pantalla en consola
 
 Posibles mejoras:
     - Agregar un sistema de puntos

@@ -1,9 +1,9 @@
 # Tratando de reemplazar el intento en barras bajas
-intento = 'z'
-palabra = 'zapatilla'
+intento = 'a'
+palabra_oculta = 'zapatilla'
 barras_bajas = ['_ ', '_ ', '_ ', '_ ', '_ ', '_ ', '_ ', '_ ', '_ ']
 
-caracteres = [i for i in palabra]
+caracteres = [i for i in palabra_oculta]
 indice = 0
 
 for letra in caracteres:
