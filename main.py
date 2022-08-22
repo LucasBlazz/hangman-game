@@ -97,7 +97,9 @@ def game():
 
     while game_status:
         os.system('clear')
-        print(word_to_guess)
+
+        #print(word_to_guess)
+        
         print(inicio)
         print('\n\n\nBienvenido al juego del ahorcado.\n\n\nPalabra:', " ".join(hidden_word))  
         print('\nVidas: ' + (lifes * '♥ '))
@@ -115,13 +117,13 @@ def game():
             game_status = False            
             os.system('clear')
             print(ganar)
-            print('La palabra era:', ' '.join(word_to_guess) + '\n\n')
             
     
         if lifes == 0: # Game over
             game_status = False
             os.system('clear')
             print(perder)
+            print('La palabra era:', ' '.join(word_to_guess) + '\n\n')
             
 
         if lifes == 0 or game_status == False: # Final message 
